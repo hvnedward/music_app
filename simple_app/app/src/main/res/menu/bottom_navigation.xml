@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/songFragment"
+        android:icon="@drawable/ic_baseline_music_note_24"
+        android:title="@string/song" />
+
+    <item
+        android:id="@+id/albumFragment"
+        android:icon="@drawable/ic_baseline_album_24"
+        android:title="@string/album" />
+    <item
+        android:id="@+id/singerFragment"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="@string/singer" />
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/search" />
+</menu>

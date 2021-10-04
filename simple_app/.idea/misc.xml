@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/GitHub/test_music_app/mymvvm/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Documents/GitHub/test_music_app/mymvvm/app/src/main/res/layout/activity_playing.xml" value="0.1" />
+        <entry key="..\:/Documents/GitHub/test_music_app/mymvvm/app/src/main/res/layout/minibar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/drawable/bg_tranperent_corner_16.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/drawable/ic_baseline_pause_circle_filled_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/drawable/layout_corrner_16.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/layout/activity_playing.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/layout/fragment_album.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/layout/fragment_singer.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/layout/fragment_song.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/layout/item_album.xml" value="0.3671875" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/layout/item_song.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/layout/minibar.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/layout/music_notification.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/dhduc/AndroidStudioProjects/mymvvm/app/src/main/res/menu/bottom_navigation.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/drawable/bg_cricel.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/drawable/bg_gray_coner_16.xml" value="0.19282051282051282" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/drawable/bg_white_corner_16_gray.xml" value="2.0285714285714285" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/drawable/img.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/activity_contain.xml" value="0.22" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/activity_detail.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/activity_playing.xml" value="0.3671875" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/fragment_search.xml" value="0.22" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/fragment_song.xml" value="0.1" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/item_song.xml" value="0.2734375" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/layout_bottom_sheet_timer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/minibar.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/music_notification.xml" value="0.1" />
+        <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/menu/bottom_navigation.xml" value="0.2734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
