@@ -42,5 +42,5 @@ dependencies {
     def lottieVersion = "3.4.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
     implementation 'de.hdodenhof:circleimageview:3.1.0'
-    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+
 }

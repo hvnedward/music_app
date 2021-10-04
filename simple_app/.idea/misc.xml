@@ -37,6 +37,14 @@
         <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/minibar.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/layout/music_notification.xml" value="0.1" />
         <entry key="..\:/Users/dhduc/test_music_app/mymvvm/app/src/main/res/menu/bottom_navigation.xml" value="0.2734375" />
+        <entry key="..\:/music_app/simple_app/app/src/main/res/layout/activity_detail.xml" value="0.3671875" />
+        <entry key="..\:/music_app/simple_app/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/music_app/simple_app/app/src/main/res/layout/fragment_album.xml" value="0.3671875" />
+        <entry key="..\:/music_app/simple_app/app/src/main/res/layout/fragment_search.xml" value="0.21145833333333333" />
+        <entry key="..\:/music_app/simple_app/app/src/main/res/layout/fragment_singer.xml" value="0.3671875" />
+        <entry key="..\:/music_app/simple_app/app/src/main/res/layout/fragment_song.xml" value="0.3671875" />
+        <entry key="..\:/music_app/simple_app/app/src/main/res/layout/item_song.xml" value="0.3671875" />
+        <entry key="..\:/music_app/simple_app/app/src/main/res/layout/minibar.xml" value="0.3671875" />
       </map>
     </option>
   </component>

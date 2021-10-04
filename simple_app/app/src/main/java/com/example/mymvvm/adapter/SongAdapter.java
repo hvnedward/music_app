@@ -2,6 +2,8 @@ package com.example.mymvvm.adapter;
 
 
 
+import static com.example.mymvvm.Constants.NULL_STRING;
+
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.view.LayoutInflater;
@@ -32,6 +34,8 @@ public class SongAdapter extends RecyclerView.Adapter<SongAdapter.SongViewHolder
     }
     public void setData(List<Song> data){
         this.songs = data;
+
+
         notifyDataSetChanged();
     }
 
@@ -63,6 +67,11 @@ public class SongAdapter extends RecyclerView.Adapter<SongAdapter.SongViewHolder
                iSongClick.clickASong(song);
            }
        });
+   }
+   if(song==null){
+       holder.tvName.setText(NULL_STRING);
+       holder.tvSinger.setText(NULL_STRING);
+       holder.imgSong.setVisibility(View.GONE);
    }
 
     }

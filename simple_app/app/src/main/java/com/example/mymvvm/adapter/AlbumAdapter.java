@@ -1,5 +1,7 @@
 package com.example.mymvvm.adapter;
 
+import static com.example.mymvvm.Constants.NULL_STRING;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,6 +28,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.AlbumAdapter
 
     public void setAlbums(List<Album> data){
         this.albums = data;
+
         notifyDataSetChanged();
     }
     @NonNull
@@ -50,6 +53,12 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.AlbumAdapter
                 }
             });
 
+        }
+        else{
+            holder.cardView.setVisibility(View.INVISIBLE);
+            holder.tvAlbumName.setText(NULL_STRING);
+            holder.tvNumber.setText(NULL_STRING);
+            holder.imageView.setVisibility(View.INVISIBLE);
         }
     }
 

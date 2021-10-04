@@ -18,6 +18,9 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.RotateAnimation;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -32,8 +35,11 @@ import com.example.mymvvm.service.MusicService;
 import com.example.mymvvm.ultis.MAction;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class DetailActivity extends AppCompatActivity {
-    private ImageView img, pre, next, play_or_pause, looping, timer;
+    private ImageView  pre, next, play_or_pause, looping, timer;
+    private CircleImageView img;
     private TextView tvName, tvSinger, tvTimePast, tvDuration, showTime;
     private Song song;
     private Boolean isPLaying = true;
@@ -154,7 +160,7 @@ public class DetailActivity extends AppCompatActivity {
         tvTimePast = findViewById(R.id.timePast);
         looping = findViewById(R.id.looping);
         timer = findViewById(R.id.timmer);
-
+        setImageRotation();
         actionDetail();
         LocalBroadcastManager.getInstance(this).registerReceiver(broadcastReceiver, new IntentFilter("send_action"));
         LocalBroadcastManager.getInstance(this).registerReceiver(seekBarBroadCastReceiver, new IntentFilter(SEEK_BAR));
@@ -260,6 +266,7 @@ public class DetailActivity extends AppCompatActivity {
         showTime = view.findViewById(R.id.showTime);
         // showTime.setVisibility(View.INVISIBLE);
         setButtonClick();
+
     }
 
     private void showBottomSheetTimer() {
@@ -320,6 +327,15 @@ public class DetailActivity extends AppCompatActivity {
         intent.putExtra(ACTION_SET_TIMER, action);
         startService(intent);
 
+    }
+
+    public void setImageRotation(){
+        RotateAnimation rotate = new RotateAnimation(0, 360, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+        rotate.setDuration(10000);
+        rotate.setRepeatCount(Animation.INFINITE);
+        rotate.setFillAfter(true);
+        rotate.setInterpolator(new LinearInterpolator());
+        img.setAnimation(rotate);
     }
 
 

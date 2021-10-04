@@ -23,6 +23,9 @@ import android.provider.MediaStore;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.RotateAnimation;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -163,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         if(songNow==null){
-            miniBar.setVisibility(View.INVISIBLE);
+            miniBar.setVisibility(View.GONE);
         }
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
@@ -192,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
         name = miniBar.findViewById(R.id.name);
         singer = miniBar.findViewById(R.id.singer);
         imgSong = miniBar.findViewById(R.id.mini_img);
-
+        setImageRotation();
         CardView cardView = miniBar.findViewById(R.id.card_minibar);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -254,5 +257,14 @@ public class MainActivity extends AppCompatActivity {
         if(MainActivity.songData ==null){
             MainActivity.songData.addAll(MainActivity.storageSong);
         }
+    }
+
+    public void setImageRotation(){
+        RotateAnimation rotate = new RotateAnimation(0, 360, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+        rotate.setDuration(10000);
+        rotate.setRepeatCount(Animation.INFINITE);
+        rotate.setFillAfter(true);
+        rotate.setInterpolator(new LinearInterpolator());
+        imgSong.setAnimation(rotate);
     }
 }

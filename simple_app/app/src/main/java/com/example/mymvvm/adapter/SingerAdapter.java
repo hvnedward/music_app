@@ -1,5 +1,7 @@
 package com.example.mymvvm.adapter;
 
+import static com.example.mymvvm.Constants.NULL_STRING;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +30,7 @@ public class SingerAdapter  extends RecyclerView.Adapter<SingerAdapter.SingerAda
 
     public void setSinger(List<Singer> data){
         this.singer = data;
+
         notifyDataSetChanged();
     }
     @NonNull
@@ -51,6 +54,12 @@ public class SingerAdapter  extends RecyclerView.Adapter<SingerAdapter.SingerAda
                     iSingerClick.onClick(s);
                 }
             });
+        }
+        else{
+            holder.cardView.setVisibility(View.GONE);
+            holder.tvAlbumName.setText(NULL_STRING);
+            holder.tvNumber.setText(NULL_STRING);
+            holder.imageView.setVisibility(View.INVISIBLE);
         }
     }
 

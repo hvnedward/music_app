@@ -6,7 +6,7 @@
     android:weightSum="6"
     android:layout_marginTop="20dp"
     android:layout_height="match_parent">
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:src="@drawable/soundcloud_logo"
         android:id="@+id/detail_img"
         android:layout_weight="2"

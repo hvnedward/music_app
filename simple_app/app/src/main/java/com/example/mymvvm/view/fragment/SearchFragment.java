@@ -27,9 +27,7 @@ import com.example.mymvvm.adapter.SongAdapter;
 import com.example.mymvvm.model.Song;
 import com.example.mymvvm.service.MusicService;
 import com.example.mymvvm.viewmodel.SongViewModel;
-import com.google.android.flexbox.FlexDirection;
-import com.google.android.flexbox.FlexboxLayoutManager;
-import com.google.android.flexbox.JustifyContent;
+
 
 import java.util.ArrayList;
 import java.util.List;
